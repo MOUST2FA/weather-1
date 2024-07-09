@@ -1,0 +1,88 @@
+.navbar{
+    background-color: #1e202b;
+}
+
+/* .navbar a{
+    padding: 0%;
+} */
+
+.navbar .nav-item a:hover{
+    border: 2px solid #039fd9;
+    color: #039fd9 !important;
+    border-radius: 100vh 100vh;
+}
+.navbar .active{
+    border: 2px solid #039fd9;
+    color: #039fd9 !important;
+    border-radius: 100vh 100vh;
+}
+
+.home{
+    background-image: url(../banner.png);
+    height: 50vh;
+    background-size: cover;
+}
+
+.colorBody{
+    background-color: #1e202b;
+    height: 50vh;
+}
+
+.child{
+    height: 350px;
+}
+
+.child img{
+    width: 50px;
+}
+
+.title-1{
+    background-color: #323544;
+}
+
+.title-2{
+    background-color: #2d303d;
+}
+
+.title-3{
+    background-color: #222530;
+}
+
+.title-4{
+    background-color: #262936;
+}
+.comp{
+position: relative;
+}
+
+.parent{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-40%);
+}
+
+.parent .tops{
+    margin-block: 60px;
+}
+
+.parent input{
+    padding: 15px 30px;
+    border-radius: 100vh 100vh;
+    background-color: #1e202b;
+    border: none;
+    outline: none;
+    color: #fff;
+} 
+
+.parent button{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 100vh 100vh;
+    right: 16px;
+    top: 3px;
+}
+
+.imgs img{
+    width: 20px;
+}
